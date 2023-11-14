@@ -1,0 +1,133 @@
+.colored-section{
+    background-color: #EC6672;
+    padding-top: 20px;
+    color: white;
+    height: 301px;
+    overflow: hidden;
+}
+
+.colored-section1{
+    background-color: #F2937F;
+    padding-top: 20px;
+    color: white;
+    height: 301px;
+    overflow: hidden;
+    text-align: center;
+    height: 25vh;
+}
+
+
+.partners-img img{
+    width: 160px;
+    height: 35px;
+    margin: auto 20px;
+}
+
+.ImagenSize{
+    margin-top: 12px;
+    width: 5rem;
+    height: 5rem;
+    /* padding: 0; */
+}
+
+
+.estilo{
+    height: 130px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 130px;
+}
+
+.estilo2{
+    padding-left: 130px;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+.aver{
+    padding-right: 30px;
+}
+
+.divcolumna{
+    margin-top: 20px;
+}
+
+.Phone-Image{
+    margin-top: 23px;
+    width: 200px;
+    transform: rotate(20deg);
+}
+
+.separacion{
+        display: flex;
+        justify-content: center;
+
+}
+
+.colored-section .navbar{
+    background-color: transparent !important;
+}
+
+.cambiacolor{
+    font-size: small !important;
+    color: white !important;
+}
+
+.cambiacolor1{
+    font-size: small !important;
+    color:white !important;
+    opacity: 0.5;
+}
+
+.margen{
+    margin-top:30px;
+    margin-left: 90px;
+}
+
+.margen1{
+    margin-top:30px;
+    margin-left: 36px;
+}
+
+.tamano{
+    margin-right: 3px;
+    margin-bottom: 3px;
+    height: 15px;
+    width: 20px;
+}
+
+
+
+
+/* DIV de las clase del 21/07/2023 */
+/* 
+.divColums{
+    margin-top: 410px;
+} */ 
+
+.whiteSection{
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    /* padding: auto auto; */
+    padding: 30px;
+    text-align: center;
+}
+
+.findthelove{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 350px;
+}
+
+.botoncitos{
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.botones{
+margin: 90px;
+
+}

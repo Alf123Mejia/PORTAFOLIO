@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <!-- ICONO DE LA PAGINA WEB -->
+    <link rel="shortcut icon" href="IMG/codigo.png" type="image/x-icon">
+    
+
+    <!----BOOTSTRAP LINK----->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!----CSS LINK----->
+    <link rel="stylesheet" href="style.formularios.css">
+    <title>PROYECT - KODIGO</title>
+
+</head>
+<body>
+
+    <form name="addForm" method="post" required class="forma-registro">
+        <div id="alerta"></div>
+        <div class="img">
+            <h4> INGRESO DE NOTAS </h4>
+            <img src="IMG/Logo-blanco.png" alt="kodigo" style="height:42px; width: 142px;">
+        </div>
+
+        <p>      
+            <label><b>Nota de la Galeria de Imágenes HTML</b></label>
+            <input type="number" name="taller1" id="taller1" min="1" max="10"  step="1" class="controls" required>
+        </p>
+
+        <p>      
+            <label><b>Nota del Formulario de Registro de Productos</b></label>
+            <input type="number" name="taller2" id="taller2" min="1" max="10"  step="1" class="controls" required>
+        </p>
+
+        <p>      
+            <label><b>Nota del Portafolio Profesional</b></label>
+            <input type="number" name="parcial" id="parcial" min="1" max="10"  step="1" class="controls" required>
+        </p>
+
+        <div class="contenedorboton">
+            <button type="button" value="Calcular" class="botons" onclick="calcularNota()" >Calcular</button> 
+        </div>
+    </form>
+
+    <script src="parcial3.js"></script>
+</body>
+</html>

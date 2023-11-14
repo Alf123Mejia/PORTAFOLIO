@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: honeydew;
+}
+
+/* ********** ESTILOS PARA LA PAGINA DE INICIO Y NOTAS ********** */
+.forma-registro{
+    width: 400px;
+    background: #24303c;
+    padding: 13px 30px;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 30px;
+    font-family: 'calibri';
+    color: white; 
+    box-shadow: 7px 17px 25px  #000;
+}
+
+.forma-registro h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.forma-registro label{
+    margin-bottom: 6px;
+}
+
+.separacion{
+    width: 100%;
+    background: #24303c;
+    padding: 5px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px; 
+}
+
+.forma-registro .botons{
+    width: 80%;
+    background: #1f53c5;
+    border: none;
+    padding: 10px;
+    margin-top: 66px;
+    font-size: 16px;
+}
+
+.forma-registro .contenedorboton{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ********** ESTILOS PARA LA PAGINA DE RECIBO Y FRANCIS ********** */
+.form-registers{
+    width: 800px;
+    background: #24303c;
+    padding: 3px 30px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-family: 'calibri';
+    color: white; 
+    box-shadow: 7px 17px 25px  #000;
+}
+
+
+.form-registers h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px; 
+}
+
+
+.form-registers .botons{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 8px;
+    margin-top: 55px;
+    font-size: 16px;
+}
+
+.text-aline{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.numeros{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 60px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 20%;
+    text-align: center;
+    vertical-align: top;
+    border: 3px solid white;
+    padding: 0.5rem;
+}
+
+.numero{
+    font-size: 20px;
+}
+
+.img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.img1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.francistexto{
+    font-size: 25px;
+    text-align: center;
+}
+
+.imgfrancis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonsfrancis{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 20px;
+}
+

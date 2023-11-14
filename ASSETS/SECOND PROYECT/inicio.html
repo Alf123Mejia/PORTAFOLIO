@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!-- ICONO DE LA PAGINA WEB -->
+    <link rel="shortcut icon" href="IMG/codigo.png" type="image/x-icon">
+
+    <!----BOOTSTRAP LINK----->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!----CSS LINK----->
+    <link rel="stylesheet" href="style.formularios.css">
+
+
+    <title>PROYECT - KODIGO</title>
+</head>
+
+<body>
+    <form name="addForm" class="forma-registro">
+        <div id="alerta"></div>
+        <div class="img">
+            <h4>NOTAS KODIGO</h4>
+            <img src="IMG/Logo-blanco.png" alt="kodigo" style="height:42px; width: 142px;">
+        </div>
+
+
+        <p>
+            <label><b>Nombres del estudiante</b></label>
+            <input name="first" type="text" id="nombre" class="separacion" placeholder="Escriba el nombre del alumno"
+                required autocomplete="off">
+        </p>
+        <p>
+            <label><b>Apellidos del estudiante</b></label>
+            <input name="last" type="text" id="apellido" class="separacion" placeholder="Escriba el apellido del alumno"
+                required autocomplete="off">
+        </p>
+
+        <p >
+            <label><b>Porcentaje de Asistencias del Alumno</b></label>
+            <br>
+                
+                <input type="radio" id="carnet" name="carnet" value="Estudiante Sobresaliente"
+                        style="margin-right: 3px; margin-left: 5px;">
+                <label for="Estudiante Sobresaliente" style="margin-right: 25px;">100%</label>
+            
+              
+                <input type="radio" id="carnet" name="carnet" value="Estudiante Promedio" style="margin-right: 3px;">
+                <label for="Estudiante Promedio" style="margin-right: 13px;">Del 80% al 50%</label>
+
+          
+                <input type="radio" id="carnet" name="carnet" value="Estudiante Deficiente" style="margin-right: 3px;">
+                <label for="Estudiante Deficiente" style="margin-right: 18px;">Menos del 50%</label>
+
+            
+            <!-- <input name="carnet" type="text" id="carnet" class="separacion" placeholder="Digitar carnet del alumno"
+                required autocomplete="off"> -->
+        </p>
+
+
+        <p>
+            <label><b>Bootcamp del Alumno</b></label>
+            <select style="width: 100%;" id="asignatura" class="separacion">
+                <option value=""></option>
+                <option value="Desarrollador Web">Desarrollador Web</option>
+                <option value="Desarrollador Full Stack">Desarrollador Full Stack</option>
+            </select>
+        </p>
+        <div class="contenedorboton">
+        <input type="button" value="Siguiente" class="botons" onclick="usuario()">
+    </div>
+    </form>
+    <script src="parcial3.js"></script>
+</body>
+
+</html>

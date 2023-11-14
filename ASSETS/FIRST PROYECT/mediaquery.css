@@ -1,0 +1,270 @@
+/* **** PANTALLA DE TELEFONOS ***** */
+
+
+/* GENERAL */
+body{
+    margin:0;
+}
+
+main{
+    background-color: #ededed;
+    margin: 0;
+}
+
+
+/* TEXTOS */
+h1, h5, p{
+    margin: 0;
+    font-family: 'Dosis', sans-serif;   
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+h5{
+    font-size: 1rem;
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+
+
+/* BARRA */
+.BarraNombre{
+    background-color: #281746;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar{
+    width: 230px;
+    height: 65Px;
+}
+
+
+/* **** CONTENIDO **** */
+.contenido{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2rem;
+}
+
+/* .contenido:hover{
+    border: 1px solid black;
+} */
+
+.icono{
+    padding: 0.3rem;
+    width: 2.50rem;
+    height: 2.25rem;
+}
+
+/* **** FILA 1**** */
+.tag{
+    background-color: #6E376E;
+    color: white;
+    padding: 0rem 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.datos{
+    height: 125px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag2{
+    background-color: #FE7087;
+}
+
+.tag3{
+    background-color: #FE9D82;
+}
+
+.ic-ojo{
+    width: 3rem;
+    height: 2.25rem;
+}
+
+
+/* **** FILA2 **** */
+.item:nth-child(4), .item:nth-child(5), .item:nth-child(7){
+    background-color: white;
+    padding: 1rem 1rem;
+    height: 138px;
+}
+
+
+.item .grafica{
+        height: 120px;
+}
+
+.grf1{
+    width: 35rem;
+}   
+
+.text-margin{
+    margin: 8px;
+}
+
+
+.item:nth-child(5), .item:nth-child(7){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(7){
+    background-color:#CA4B7C;
+    color: white
+}
+
+
+/* **** FILA3 **** */
+.item:nth-child(6){
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+}
+
+
+.caja{
+    display: flex;  
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    align-items: center;
+    background-color: white;
+}
+
+.item:nth-child(8){
+    display: grid;
+    grid-template-columns: 50% auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.cajita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cajita-1{
+    background-color: #6E376E;
+}
+
+.cajita-2{
+    background-color: #CA4B7C;
+}
+
+.cajita-3{
+    background-color: #FE7087;
+}
+
+.cajita-4{
+    background-color: #FE9D82;
+}
+
+.icono4{
+    width: 35px;
+    height: 35px;
+    padding-bottom: 8px;
+}
+
+
+
+/* **** PANTALLA PARA TABLETS **** */
+@media (min-width: 768px){
+    main{
+        padding: 2rem;
+    }
+
+    .contenido{
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: 48% 48%;
+        gap: 0;
+        justify-content: space-between;
+        row-gap: 2rem;
+    }
+
+    .grafica{
+        height: 100px;
+    }
+    
+    .grf1{
+        max-width: 100%;
+    }  
+     
+    .icono4{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+/* **** PANTALLA PARA ESCRITORIO **** */
+@media (min-width: 1200px){
+    main{
+        padding: 5rem 10rem;
+    }
+
+
+    .contenido{
+        grid-template-columns: 30% 30% 30%;
+    }
+
+    .item:nth-child(4){
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .item:nth-child(6){
+        height: 100px;        
+    }
+  
+    .grafica{
+        height: 100px;
+    }
+    
+    .grf1{
+        max-width: 100%;
+    }  
+
+    .icono4{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+.item:nth-child(1):hover, .item:nth-child(2):hover, .item:nth-child(3):hover , .item:nth-child(4):hover, .item:nth-child(5):hover, .item:nth-child(7):hover {
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+}
+
+
+.caja:nth-child(1):hover, .caja:nth-child(2):hover{
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+}
+
+.cajita:nth-child(1):hover, .cajita:nth-child(2):hover, .cajita:nth-child(3):hover, .cajita:nth-child(4):hover{
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+}

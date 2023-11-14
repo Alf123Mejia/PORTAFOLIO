@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!-- ICONO DE LA PAGINA WEB -->
+    <link rel="shortcut icon" href="IMG/codigo.png" type="image/x-icon">
+
+    <!----BOOTSTRAP LINK----->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!----CSS LINK----->
+    <link rel="stylesheet" href="style.formularios.css">
+    <title>PROYECT - KODIGO</title>
+</head>
+
+<body onload="imprimir()">
+
+    <div class="form-registers">
+        <div class="img">
+            <img src="IMG/Logo-blanco.png" alt="kodigo" style="height:60px; width: 200px;">
+            <h3 id="ImpNombre" class="text-aline"></h3>
+            <img src="IMG/francis neutral.png" alt="kodi" style="height:100px ;">
+        </div>
+
+        <table>
+            <thead>
+                <th>NOTAS FINALES</th>
+                <th colspan="2"><b>LABORATORIO</b></th>
+                <th colspan="2"><b>UNIDAD</b></th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row" class="text-aline"><b>Evaluaciones</b></th>
+                    <th>Nota de la <br>Galeria HTML</th>
+                    <th>Nota del <br>Formulario HTML</th>
+                    <th>Nota del <br>Laboratorio</th>
+                    <th>Nota del <br>Portafolio</th>
+                </tr>
+
+                <tr class="text-aline">
+                    <th class="text-aline">Calificaciones</th>
+                    <td id="impNotaTaller1">Nota taller1</td>
+                    <td id="impNotaTaller2">Nota taller2</td>
+                    <td id="impLabotario1">Nota labotario</td>
+                    <td id="impParcial">Nota parcial</td>
+                </tr>
+
+                <tr class="text-aline">
+                    <th class="text-aline">Ponderaciones</th>
+                    <td>50% <br><b>NOTA LABORATORIO</b></td>
+                    <td>50% <br><b>NOTA LABORATORIO</b></td>
+                    <td>40% <br><b>NOTA PARCIAL</b></td>
+                    <td>60% <br><b>NOTA PARCIAL</b></td>
+                </tr>
+
+                <tr class="text-aline">
+                    <th class="text-aline">Equivalentes</th>
+                    <td id="impporcentajetaller1">Porcentaje1</td>
+                    <td id="impporcentajetaller2">Porcentaje2</td>
+                    <td id="impNotaPromedio1">PorcentajeLaboratorio</td>
+                    <td id="impNotaPromedio2">PorcentajeParcial</td>
+                </tr>
+
+                <tr>
+                    <th class="text-aline">Totales</th>
+                    <td colspan="2" id="impLabotario2" class="numero">Porcentaje1</td>
+                    <td colspan="2" id="impNotafinal" class="numero">Porcentaje2</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class="text-aline">NOTA FINAL DE UNIDAD</h3>
+        <p id="impNotafinal1" class="numeros">Nota Final</p>
+    </div>
+
+    <script src="parcial3.js"></script>
+</body>
+
+</html>
